@@ -11,7 +11,7 @@ public class HW3 {
         System.out.println(phrase);
 
         System.out.print("2. ");
-        System.out.println(phrase.charAt(18));
+        System.out.println(phrase.charAt(phrase.length() - 1));
 
         System.out.print("3. ");
         System.out.println(phrase.contains("Java"));
@@ -26,14 +26,17 @@ public class HW3 {
         System.out.println(phrase.toUpperCase());
 
         System.out.print("7. ");
-        System.out.println(phrase.substring(13, 18));
+        String javaS = "Java";
+        System.out.println(phrase.substring(phrase.indexOf(javaS), phrase.indexOf(javaS) + javaS.length()));
 
         System.out.print("8. ");
         double percent = (470.0 / 200) * 100;
         System.out.println("Percent: " + percent);
 
         System.out.print("9. ");
-        System.out.println(phrase.indexOf("g"));
+        char aSymbol = 'g';
+        int aIndex = aSymbol;
+        System.out.println(aIndex);
         System.out.println("------------------------------------------");
         System.out.println("Second level:");
         System.out.print("1. ");
@@ -49,6 +52,7 @@ public class HW3 {
 
         System.out.print("3. ");
         double a = 59.976;
+        Math.floor(a);
         int b = (int) a;
         System.out.print(b);
 
