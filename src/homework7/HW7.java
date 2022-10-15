@@ -37,6 +37,7 @@ public class HW7 {
             case 4:
                 System.out.println(seasons + ": Autumn");
         }
+
 //        3.
         int month = random7.nextInt(12) + 1;
         switch (month) {
@@ -62,6 +63,7 @@ public class HW7 {
             case 12:
                 System.out.print(month + ": Winter");
         }
+//        --------------------------------------------------------------------------
 //        Second level:
 //        1.
         System.out.println("Input your amount from 1 till 9999");
