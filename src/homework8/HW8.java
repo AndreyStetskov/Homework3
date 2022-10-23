@@ -72,7 +72,19 @@ public class HW8 {
 //        _______________________________________________________________
 //        Second level
 //        1.
-
+        int firstNumber = random8.nextInt(100);
+        int secondNumber = random8.nextInt(100);
+        int result = 0;
+        if (firstNumber > secondNumber) {
+            for (int i = 0; i < secondNumber; i++) {
+                result += firstNumber;
+            }
+        } else {
+            for (int i = 0; i < firstNumber; i++) {
+                result += secondNumber;
+            }
+        }
+            System.out.println(firstNumber + ", " + secondNumber + ": " + result);
 //        2.
         int oddNumbers = 0;
         int middle = 0;
